@@ -28,17 +28,17 @@ namespace Sales
 
             #region ThrowFatalException
             // Uncomment to test throwing fatal exceptions
-            //throw new Exception("BOOM");
+            throw new Exception("BOOM");
             #endregion
 
-            var orderPlaced = new OrderPlaced
-            {
-                OrderId = message.OrderId
-            };
+            //var orderPlaced = new OrderPlaced
+            //{
+            //    OrderId = message.OrderId
+            //};
 
-            log.Info($"Publishing OrderPlaced, OrderId = {message.OrderId}");
+            //log.Info($"Publishing OrderPlaced, OrderId = {message.OrderId}");
 
-            return context.Publish(orderPlaced);
+            //return context.Publish(orderPlaced);
         }
     }
 }

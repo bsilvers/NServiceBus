@@ -1,0 +1,142 @@
+﻿2019-05-19 07:50:51.407 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\' with level Info
+2019-05-19 07:50:51.645 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-19 07:50:51.684 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-19 07:50:52.122 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = 23aef0e4
+2019-05-19 07:50:52.138 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = 23aef0e4
+2019-05-19 07:52:41.365 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = a7b6bba4
+2019-05-19 07:52:41.372 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = a7b6bba4
+2019-05-19 07:53:09.682 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = 4877d8ed
+2019-05-19 07:53:09.689 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = 4877d8ed
+2019-05-19 07:53:13.366 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = 56db3f0a
+2019-05-19 07:53:13.373 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = 56db3f0a
+2019-05-19 07:53:15.646 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = c3859af3
+2019-05-19 07:53:15.653 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = c3859af3
+2019-05-19 07:53:17.476 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = ab431df9
+2019-05-19 07:53:17.560 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '1893684f-1c9b-4a27-89da-aa5200d46406' because of an exception:
+System.Exception: Oops
+   at Sales.PlaceOrderHandler.Handle(PlaceOrder message, IMessageHandlerContext context)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at (Closure`2 , IInvokeHandlerContext )
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ReceivePerformanceDiagnosticsBehavior.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-05-19 07:53:17.588 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = ab431df9
+2019-05-19 07:53:17.596 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '1893684f-1c9b-4a27-89da-aa5200d46406' because of an exception:
+System.Exception: Oops
+   at Sales.PlaceOrderHandler.Handle(PlaceOrder message, IMessageHandlerContext context)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at (Closure`2 , IInvokeHandlerContext )
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ReceivePerformanceDiagnosticsBehavior.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-05-19 07:53:17.624 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = ab431df9
+2019-05-19 07:53:17.633 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = ab431df9
+2019-05-19 11:28:28.684 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\' with level Info
+2019-05-19 11:28:28.902 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-19 11:28:28.936 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-19 11:30:06.371 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = d2821240
+2019-05-19 11:30:06.390 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fe5d2a94-0746-400a-8c30-aa52010ff0ad' because of an exception:
+System.Exception: Oops
+   at Sales.PlaceOrderHandler.Handle(PlaceOrder message, IMessageHandlerContext context)
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at (Closure`2 , IInvokeHandlerContext )
+   at NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MutateIncomingMessageBehavior.<InvokeIncomingMessageMutators>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ReceivePerformanceDiagnosticsBehavior.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.<InvokeIncomingTransportMessagesMutators>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.InvokeAuditPipelineBehavior.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-05-19 11:30:06.427 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = d2821240
+2019-05-19 11:30:06.435 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = d2821240

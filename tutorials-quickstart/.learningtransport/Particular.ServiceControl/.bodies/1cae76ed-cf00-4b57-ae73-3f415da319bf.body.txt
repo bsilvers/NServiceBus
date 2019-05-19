@@ -1,1 +1,0 @@
-{"HostId":"46611b32-1e92-09c5-4f78-305691693e2a","Endpoint":"Billing","StartedAt":"2019-05-18T15:36:38.1921391Z","HostProperties":{"Machine":"BRIANSDEV-PC","ProcessID":"12504","UserName":"xnet_","PathToExecutable":"D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Billing\\bin\\Debug\\net461\\Billing.exe"},"HostDisplayName":"BRIANSDEV-PC","Host":"BRIANSDEV-PC"}

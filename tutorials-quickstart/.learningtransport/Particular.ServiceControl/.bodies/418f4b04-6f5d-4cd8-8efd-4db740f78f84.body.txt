@@ -1,1 +1,0 @@
-{"HostId":"1956fe0a-fdc7-1220-b55d-53e43469526e","Endpoint":"ClientUI","StartedAt":"2019-05-18T15:25:04.607156Z","HostProperties":{"Machine":"BRIANSDEV-PC","ProcessID":"16952","UserName":"xnet_","PathToExecutable":"C:\\Program Files (x86)\\IIS Express\\iisexpress.exe"},"HostDisplayName":"BRIANSDEV-PC","Host":"BRIANSDEV-PC"}

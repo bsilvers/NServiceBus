@@ -1,0 +1,8 @@
+{
+  "TransformResults": "from failure in results\nselect new {\n\tfailure = failure,\n\trec = DynamicEnumerable.LastOrDefault(failure.ProcessingAttempts)\n} into this0\nselect new {\n\tId = this0.failure.UniqueMessageId,\n\tMessageType = this0.rec.MessageMetadata[\"MessageType\"],\n\tIsSystemMessage = ((bool)this0.rec.MessageMetadata[\"IsSystemMessage\"]),\n\tSendingEndpoint = this0.rec.MessageMetadata[\"SendingEndpoint\"],\n\tReceivingEndpoint = this0.rec.MessageMetadata[\"ReceivingEndpoint\"],\n\tTimeSent = ((DateTime?)this0.rec.MessageMetadata[\"TimeSent\"]),\n\tMessageId = this0.rec.MessageMetadata[\"MessageId\"],\n\tException = this0.rec.FailureDetails.Exception,\n\tQueueAddress = this0.rec.FailureDetails.AddressOfFailingEndpoint,\n\tNumberOfProcessingAttempts = this0.failure.ProcessingAttempts.Count,\n\tStatus = this0.failure.Status,\n\tTimeOfFailure = this0.rec.FailureDetails.TimeOfFailure,\n\tLastModified = this0.failure[\"@metadata\"][\"Last-Modified\"].Value<DateTime>()\n}",
+  "TransfomerId": 1,
+  "Temporary": false,
+  "Name": "FailedMessageViewTransformer",
+  "LockMode": "Unlock",
+  "TransformerVersion": 1
+}

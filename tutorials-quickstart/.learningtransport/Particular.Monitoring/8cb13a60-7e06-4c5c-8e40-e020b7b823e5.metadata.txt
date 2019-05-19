@@ -1,9 +1,0 @@
-{
-  "NServiceBus.OriginatingEndpoint": "Billing",
-  "NServiceBus.OriginatingMachine": "BRIANSDEV-PC",
-  "$.diagnostics.originating.hostid": "46611b321e9209c54f78305691693e2a",
-  "$.diagnostics.hostdisplayname": "BRIANSDEV-PC",
-  "NServiceBus.EnclosedMessageTypes": "NServiceBus.Metrics.EndpointMetadataReport",
-  "NServiceBus.ContentType": "application\/json",
-  "NServiceBus.Transport.Learning.TimeToBeReceived": "7.00:00:00"
-}

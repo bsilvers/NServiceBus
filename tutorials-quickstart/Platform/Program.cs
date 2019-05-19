@@ -9,7 +9,7 @@
         static void Main(string[] args)
         {
             Console.Title = "Particular Service Platform Launcher";
-            //Particular.PlatformLauncher.Launch();
+            Particular.PlatformLauncher.Launch();
         }
 
         #endregion

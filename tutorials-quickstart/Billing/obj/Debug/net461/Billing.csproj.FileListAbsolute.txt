@@ -1,0 +1,15 @@
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\Billing.exe
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\Billing.pdb
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\NServiceBus.Core.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\NServiceBus.Heartbeat.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\NServiceBus.Metrics.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\NServiceBus.Metrics.ServiceControl.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\Messages.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\Messages.pdb
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\obj\Debug\net461\Billing.csprojAssemblyReference.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\obj\Debug\net461\Billing.csproj.CoreCompileInputs.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\obj\Debug\net461\Billing.AssemblyInfoInputs.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\obj\Debug\net461\Billing.AssemblyInfo.cs
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\obj\Debug\net461\Billing.csproj.CopyComplete
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\obj\Debug\net461\Billing.exe
+D:\work\github\NServiceBus\tutorials-quickstart\Billing\obj\Debug\net461\Billing.pdb

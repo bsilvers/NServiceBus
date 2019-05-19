@@ -1,0 +1,10 @@
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\bin\Debug\net461\Messages.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\bin\Debug\net461\Messages.pdb
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\bin\Debug\net461\NServiceBus.Core.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\obj\Debug\net461\Messages.csprojAssemblyReference.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\obj\Debug\net461\Messages.csproj.CoreCompileInputs.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\obj\Debug\net461\Messages.AssemblyInfoInputs.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\obj\Debug\net461\Messages.AssemblyInfo.cs
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\obj\Debug\net461\Messages.csproj.CopyComplete
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\obj\Debug\net461\Messages.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Messages\obj\Debug\net461\Messages.pdb

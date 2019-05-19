@@ -1,0 +1,16 @@
+﻿2019-05-18 10:24:57.144 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\' with level Info
+2019-05-18 10:24:57.399 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-18 10:24:57.435 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-18 10:25:53.032 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = 0e19cacc
+2019-05-18 10:25:53.043 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = 0e19cacc
+2019-05-18 10:36:38.517 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\' with level Info
+2019-05-18 10:36:38.719 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-18 10:36:38.753 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-18 13:56:41.505 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = 6c794080
+2019-05-18 13:56:41.512 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = 6c794080
+2019-05-18 13:56:43.695 INFO  Sales.PlaceOrderHandler Received PlaceOrder, OrderId = 1070d384
+2019-05-18 13:56:43.701 INFO  Sales.PlaceOrderHandler Publishing OrderPlaced, OrderId = 1070d384
+2019-05-18 14:02:32.560 INFO  NServiceBus.RunningEndpointInstance Initiating shutdown.
+2019-05-18 14:02:32.953 INFO  NServiceBus.RunningEndpointInstance Shutdown complete.

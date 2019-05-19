@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Messages\\Messages.csproj": {}
+  },
+  "projects": {
+    "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Messages\\Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Messages\\Messages.csproj",
+        "projectName": "Messages",
+        "projectPath": "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Messages\\Messages.csproj",
+        "packagesPath": "C:\\Users\\xnet_\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\NuGet.Config",
+          "C:\\Users\\xnet_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/particular/": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.*, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

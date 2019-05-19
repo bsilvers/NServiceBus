@@ -1,0 +1,15 @@
+﻿2019-05-18 10:24:56.315 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\' with level Info
+2019-05-18 10:24:56.586 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-18 10:24:56.633 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-18 10:25:53.249 INFO  Billing.OrderPlacedHandler Billing has received OrderPlaced, OrderId = 0e19cacc
+2019-05-18 10:36:37.706 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\' with level Info
+2019-05-18 10:36:37.908 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-18 10:36:37.938 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-18 13:57:19.351 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\Billing\bin\Debug\net461\' with level Info
+2019-05-18 13:57:19.586 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-18 13:57:19.621 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-18 13:57:20.101 INFO  Billing.OrderPlacedHandler Billing has received OrderPlaced, OrderId = 1070d384
+2019-05-18 13:57:20.143 INFO  Billing.OrderPlacedHandler Billing has received OrderPlaced, OrderId = 6c794080

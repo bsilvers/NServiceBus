@@ -1,0 +1,1 @@
+{"HostId":"ab8d7023-ee96-58f7-1938-88756590a430","Endpoint":"Sales","StartedAt":"2019-05-18T15:24:57.7185062Z","HostProperties":{"Machine":"BRIANSDEV-PC","ProcessID":"16420","UserName":"xnet_","PathToExecutable":"D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Sales\\bin\\Debug\\net461\\Sales.exe"},"HostDisplayName":"BRIANSDEV-PC","Host":"BRIANSDEV-PC"}

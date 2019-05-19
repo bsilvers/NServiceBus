@@ -1,0 +1,15 @@
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\Sales.exe
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\Sales.pdb
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\NServiceBus.Core.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\NServiceBus.Heartbeat.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\NServiceBus.Metrics.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\NServiceBus.Metrics.ServiceControl.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\Messages.dll
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\bin\Debug\net461\Messages.pdb
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\obj\Debug\net461\Sales.csprojAssemblyReference.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\obj\Debug\net461\Sales.csproj.CoreCompileInputs.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\obj\Debug\net461\Sales.AssemblyInfoInputs.cache
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\obj\Debug\net461\Sales.AssemblyInfo.cs
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\obj\Debug\net461\Sales.csproj.CopyComplete
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\obj\Debug\net461\Sales.exe
+D:\work\github\NServiceBus\tutorials-quickstart\Sales\obj\Debug\net461\Sales.pdb

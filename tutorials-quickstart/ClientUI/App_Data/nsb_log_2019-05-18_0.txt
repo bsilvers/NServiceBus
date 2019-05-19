@@ -1,0 +1,8 @@
+﻿2019-05-18 10:25:04.101 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\ClientUI\App_Data\' with level Info
+2019-05-18 10:25:04.324 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-18 10:25:04.362 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+
+2019-05-18 10:36:39.144 INFO  DefaultFactory Logging to 'D:\work\github\NServiceBus\tutorials-quickstart\ClientUI\App_Data\' with level Info
+2019-05-18 10:36:39.302 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-05-18 10:36:39.322 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-05-18'.
+

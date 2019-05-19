@@ -1,0 +1,293 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "NServiceBus/7.1.8": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Security",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Heartbeat/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Heartbeat.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Heartbeat.dll": {}
+        }
+      },
+      "NServiceBus.Metrics/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Metrics.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Metrics.dll": {}
+        }
+      },
+      "NServiceBus.Metrics.ServiceControl/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.1, 8.0.0)",
+          "NServiceBus.Metrics": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Metrics.ServiceControl.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Metrics.ServiceControl.dll": {}
+        }
+      },
+      "Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Messages.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x86": {
+      "NServiceBus/7.1.8": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Security",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.Heartbeat/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Heartbeat.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Heartbeat.dll": {}
+        }
+      },
+      "NServiceBus.Metrics/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Metrics.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Metrics.dll": {}
+        }
+      },
+      "NServiceBus.Metrics.ServiceControl/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.1, 8.0.0)",
+          "NServiceBus.Metrics": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Metrics.ServiceControl.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Metrics.ServiceControl.dll": {}
+        }
+      },
+      "Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Messages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NServiceBus/7.1.8": {
+      "sha512": "PnDZ92WmCOnX/Dw2HVnL2wfbP1FmBM2HnTzaoch86j70xwNnrL4+3I+kXz5hn6T/9S65QwgPjhILFN5ZJq8mWg==",
+      "type": "package",
+      "path": "nservicebus/7.1.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/NServiceBus.Core.Analyzer.dll",
+        "lib/net452/NServiceBus.Core.dll",
+        "lib/net452/NServiceBus.Core.pdb",
+        "lib/net452/NServiceBus.Core.xml",
+        "lib/netstandard2.0/NServiceBus.Core.dll",
+        "lib/netstandard2.0/NServiceBus.Core.pdb",
+        "lib/netstandard2.0/NServiceBus.Core.xml",
+        "nservicebus.7.1.8.nupkg.sha512",
+        "nservicebus.nuspec",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NServiceBus.Heartbeat/3.0.1": {
+      "sha512": "1ugKYzohxY1TZLfxHAH6tAxGA8YVKCm6o2VklJzyatrs0aOqYTbXfJJ2NJBG0lDCPf3a2jnYdW8wwBly65S1VQ==",
+      "type": "package",
+      "path": "nservicebus.heartbeat/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/NServiceBus.Heartbeat.dll",
+        "lib/net452/NServiceBus.Heartbeat.pdb",
+        "lib/net452/NServiceBus.Heartbeat.xml",
+        "lib/netstandard2.0/NServiceBus.Heartbeat.dll",
+        "lib/netstandard2.0/NServiceBus.Heartbeat.pdb",
+        "lib/netstandard2.0/NServiceBus.Heartbeat.xml",
+        "nservicebus.heartbeat.3.0.1.nupkg.sha512",
+        "nservicebus.heartbeat.nuspec"
+      ]
+    },
+    "NServiceBus.Metrics/3.0.0": {
+      "sha512": "3k2yQ8a7AYbGfafb3kD/sP9hRIV5cLl+CPxpfHEVLItCqOu7XSaoFxccLvWlxQ67hgKmce+AsbvPlBZsre+mwA==",
+      "type": "package",
+      "path": "nservicebus.metrics/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/NServiceBus.Metrics.dll",
+        "lib/net452/NServiceBus.Metrics.pdb",
+        "lib/net452/NServiceBus.Metrics.xml",
+        "lib/netstandard2.0/NServiceBus.Metrics.dll",
+        "lib/netstandard2.0/NServiceBus.Metrics.pdb",
+        "lib/netstandard2.0/NServiceBus.Metrics.xml",
+        "nservicebus.metrics.3.0.0.nupkg.sha512",
+        "nservicebus.metrics.nuspec"
+      ]
+    },
+    "NServiceBus.Metrics.ServiceControl/3.0.2": {
+      "sha512": "6S6LrkVWI//weh2E3mIF9Jl7EzNM5WsitRA6pBfB5sOQ+weGJJuwSeWBSeT2AfMlRjOuh89/Oe3zNfe2Q5SlfA==",
+      "type": "package",
+      "path": "nservicebus.metrics.servicecontrol/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/NServiceBus.Metrics.ServiceControl.dll",
+        "lib/net452/NServiceBus.Metrics.ServiceControl.pdb",
+        "lib/net452/NServiceBus.Metrics.ServiceControl.xml",
+        "lib/netstandard2.0/NServiceBus.Metrics.ServiceControl.dll",
+        "lib/netstandard2.0/NServiceBus.Metrics.ServiceControl.pdb",
+        "lib/netstandard2.0/NServiceBus.Metrics.ServiceControl.xml",
+        "nservicebus.metrics.servicecontrol.3.0.2.nupkg.sha512",
+        "nservicebus.metrics.servicecontrol.nuspec"
+      ]
+    },
+    "Messages/1.0.0": {
+      "type": "project",
+      "path": "../Messages/Messages.csproj",
+      "msbuildProject": "../Messages/Messages.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Messages >= 1.0.0",
+      "NServiceBus >= 7.*",
+      "NServiceBus.Heartbeat >= 3.*",
+      "NServiceBus.Metrics.ServiceControl >= 3.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\xnet_\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Billing\\Billing.csproj",
+      "projectName": "Billing",
+      "projectPath": "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Billing\\Billing.csproj",
+      "packagesPath": "C:\\Users\\xnet_\\.nuget\\packages\\",
+      "outputPath": "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Billing\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\NuGet.Config",
+        "C:\\Users\\xnet_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/particular/": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Messages\\Messages.csproj": {
+              "projectPath": "D:\\work\\github\\NServiceBus\\tutorials-quickstart\\Messages\\Messages.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NServiceBus": {
+            "target": "Package",
+            "version": "[7.*, )"
+          },
+          "NServiceBus.Heartbeat": {
+            "target": "Package",
+            "version": "[3.*, )"
+          },
+          "NServiceBus.Metrics.ServiceControl": {
+            "target": "Package",
+            "version": "[3.*, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

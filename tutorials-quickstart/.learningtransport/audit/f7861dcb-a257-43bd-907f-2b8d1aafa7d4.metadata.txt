@@ -1,0 +1,20 @@
+{
+  "NServiceBus.MessageId": "773d1d68-5705-4145-a6f1-aa5100fe4d06",
+  "NServiceBus.MessageIntent": "Send",
+  "NServiceBus.ConversationId": "fc3f1e6d-f0f8-418a-9a59-aa5100fe4d08",
+  "NServiceBus.CorrelationId": "773d1d68-5705-4145-a6f1-aa5100fe4d06",
+  "NServiceBus.OriginatingMachine": "BRIANSDEV-PC",
+  "NServiceBus.OriginatingEndpoint": "ClientUI",
+  "$.diagnostics.originating.hostid": "1956fe0afdc71220b55d53e43469526e",
+  "NServiceBus.ReplyToAddress": "ClientUI",
+  "NServiceBus.ContentType": "text\/xml",
+  "NServiceBus.EnclosedMessageTypes": "Messages.PlaceOrder, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.Version": "7.1.8",
+  "NServiceBus.TimeSent": "2019-05-18 15:25:52:905893 Z",
+  "NServiceBus.ProcessingStarted": "2019-05-18 15:25:52:966837 Z",
+  "NServiceBus.ProcessingEnded": "2019-05-18 15:25:53:106708 Z",
+  "$.diagnostics.hostid": "ab8d7023ee9658f7193888756590a430",
+  "$.diagnostics.hostdisplayname": "BRIANSDEV-PC",
+  "NServiceBus.ProcessingMachine": "BRIANSDEV-PC",
+  "NServiceBus.ProcessingEndpoint": "Sales"
+}
